@@ -1,0 +1,1205 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.padding-container {
+  padding: 0px 48px;
+}
+
+.padding-section {
+  padding: 60px 0px 0px 0px;
+}
+
+/* ---headers----- */
+.header_top {
+  background-color: #ffcc00;
+}
+
+.navbar_top .topheader {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.topheader h1 {
+  color: #000;
+  font-size: 20px;
+  font-family: "Dancing Script", cursive;
+  margin: 0px;
+  padding: 10px 0px;
+
+}
+
+.call .whatsaap i {
+  color: #000;
+  font-size: 16px;
+}
+
+.call .whatsaap i:hover {
+  color: #ffffff;
+}
+
+.call .callpoint i {
+  color: #000;
+  font-size: 16px;
+}
+
+.call .callpoint i:hover {
+  color: #ffffff;
+}
+
+.call .callpoint span {
+  color: #000;
+  font-size: 14px;
+}
+
+.topheader h1 span {
+  color: #fff;
+  font-size: 20px;
+  font-family: "Dancing Script", cursive;
+  margin: 0px;
+  padding: 10px 0px;
+
+}
+
+.navbar_top .topheader p {
+  text-align: center;
+  color: #000;
+  font-size: 14px;
+  font-family: "Dancing Script", cursive;
+  margin: 0px;
+  padding: 10px 0px;
+}
+
+.second_header {
+  background-color: #000;
+}
+
+.navbar_mid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+  padding: 10px 0;
+}
+
+
+.btncontactheader {
+  background-color: #FFCC00;
+  text-align: center;
+  color: #000;
+  cursor: pointer;
+  border-radius: 20px;
+  padding: 7px 16px;
+  font-family: "Dancing Script", cursive;
+  font-size: 14px;
+  border: 1px solid #000;
+}
+
+.btncontactheader:hover {
+  background: linear-gradient(90deg, rgba(215, 194, 81, 1) 0%, rgba(222, 213, 155, 1) 0%, rgba(255, 212, 0, 1) 100%, rgba(235, 173, 62, 1) 100%, rgba(227, 157, 87, 1) 100%);
+  color: #000;
+}
+
+.header_three {
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.navbar_three {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+  padding: 10px 0;
+}
+
+.navbar_three .nav-point {
+  color: #000;
+  cursor: pointer;
+  padding: 10px 10px;
+  font-family: "Dancing Script", cursive;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.nav-point:hover {
+  color: #FFCC00;
+  text-decoration: underline;
+}
+
+.stickypoint {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.service-section {
+  background-color: #FFCC00;
+  padding: 10px 0px;
+}
+
+.service-head {
+  padding: 0px 0px 20px 0px;
+}
+
+.service-head h2 {
+  text-align: center;
+  color: #000;
+  font-size: 40px;
+
+  font-family: "Dancing Script", cursive;
+}
+
+.service-head span {
+  color: #fff;
+
+}
+
+.servicecard {
+  background-color: #fff;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px 0px;
+  max-height: 100%;
+  min-height: 250px;
+}
+
+.servicecard h3 {
+  font-size: 20px;
+  padding: 10px 10px;
+  font-weight: bold;
+  color: #000;
+  font-family: "Dancing Script", cursive;
+  height: 50px;
+}
+
+.servicecard p {
+  font-size: 15px;
+  padding: 10px 20px;
+  color: #000;
+  font-family: "Dancing Script", cursive;
+  height: 100px;
+}
+
+.contactservice {
+  color: #fff;
+  background-color: #000;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 15px;
+  font-family: "Dancing Script", cursive;
+  padding: 3px 16px;
+}
+
+.bottomtop {
+  padding: 20px 0px 60px 0px;
+}
+
+
+
+/* ------hero_section------- */
+.hero_section {
+  background-color: #000;
+  padding: 60px 0px 0px 0px;
+
+}
+
+
+.btncontact {
+  background-color: #FFCC00;
+  text-align: center;
+  color: #000;
+  cursor: pointer;
+  border-radius: 20px;
+  padding: 8px 20px;
+  font-family: "Dancing Script", cursive;
+  font-size: 16px;
+  border: 2px solid #000;
+}
+
+.btncontact:hover {
+  background: linear-gradient(90deg, rgba(215, 194, 81, 1) 0%, rgba(222, 213, 155, 1) 0%, rgba(255, 212, 0, 1) 100%, rgba(235, 173, 62, 1) 100%, rgba(227, 157, 87, 1) 100%);
+  color: #000;
+}
+
+.intro-area {
+  display: flex;
+  align-items: center;
+}
+
+.hero-text h1 {
+  font-size: 36px;
+  color: #fff;
+  font-family: "Dancing Script", cursive;
+  padding: 10px 0px;
+}
+
+.hero-text p {
+  font-size: 16px;
+  color: #fff;
+  padding: 10px 0px;
+  font-family: "Dancing Script", cursive;
+}
+
+.hero-picarea {
+  padding: 20px 0px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.hero-manpic {
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+}
+
+.hero-manpic img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.about_section {
+  background-color: #fff;
+  padding: 0px 0px 0px 0px;
+}
+
+.about_text {
+  padding: 10px 0px;
+}
+
+.about_text h2 {
+  font-size: 40px;
+  color: #000;
+  font-family: "Dancing Script", cursive;
+  padding: 0px 0px 20px 0px;
+  font-weight: 800;
+}
+
+.about_text h2 span {
+  color: #FFCC00;
+}
+
+.about_text p {
+  font-size: 16px;
+  color: #000;
+  font-family: "Dancing Script", cursive;
+}
+
+.shape1 {
+  background-image: url('../images/shape1.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  position: relative;
+  top: -5px;
+}
+
+.shape1-content {
+  padding: 60px 0px 60px 0px;
+}
+
+.shape2 {
+  background-image: url('../images/shape2.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  position: relative;
+  bottom: -3px;
+}
+
+.shape2-content {
+  padding: 60px 0px 100px 0px;
+}
+
+
+
+/* ------projects section-------- */
+.projects-section {
+  padding: 0px 0px;
+}
+
+.alllistproject {
+  background-color: #fff;
+  padding: 40px 0px;
+  display: flex;
+  align-items: center;
+}
+
+.alllistprojectarea {
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 500px;
+  box-sizing: border-box;
+  padding-right: 15px;
+}
+
+.alllistprojectarea::-webkit-scrollbar {
+  width: 10px;
+}
+
+.alllistprojectarea::-webkit-scrollbar-track {
+
+  background: #D9D9D9;
+  border: 1px solid #D9D9D9;
+  border-radius: 5px;
+}
+
+.alllistprojectarea::-webkit-scrollbar-thumb {
+  background-color: #FFCC00;
+  border-radius: 5px;
+  border: 2px solid #D9D9D9;
+}
+
+
+.projectpic {
+  width: auto;
+  height: 100%;
+  padding: 10px 0px 20px 0px;
+  cursor: pointer;
+}
+
+.projectpic img {
+  border: 10px solid #000;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.projectpicmain {
+  width: auto;
+  height: 300px;
+  padding: 20px 0px;
+}
+
+.projectpicmain img {
+  border: 10px solid #FFCC00;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.textareaproject {
+  text-align: center;
+
+}
+
+.textareaproject p {
+  font-size: 16px;
+  font-family: "Dancing Script", cursive;
+  color: #fff;
+}
+
+.picdestails {
+  background-color: #000;
+  padding: 0px 0px;
+  height: 100%;
+}
+
+
+
+.allcertificates {
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 600px;
+  box-sizing: border-box;
+  padding-right: 15px;
+}
+
+.allcertificates::-webkit-scrollbar {
+  width: 10px;
+}
+
+.allcertificates::-webkit-scrollbar-track {
+  background: #D9D9D9;
+  border-radius: 5px;
+}
+
+.allcertificates::-webkit-scrollbar-thumb {
+  background-color: #FFCC00;
+  border-radius: 5px;
+}
+
+.rightdside {
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 500px;
+  box-sizing: border-box;
+  padding-right: 15px;
+}
+
+.rightdside::-webkit-scrollbar {
+  width: 8px;
+}
+
+.rightdside::-webkit-scrollbar-track {
+  background: #ffffff;
+  border: 0px solid #FFCC00;
+  border-radius: 5px;
+}
+
+.rightdside::-webkit-scrollbar-thumb {
+  background-color: #FFCC00;
+  border-radius: 5px;
+  border: 1px solid #ffffff;
+}
+
+/* ======================================= */
+.padding-projectleft {
+  padding: 10px 48px 48px 48px;
+}
+
+.detailproject {
+  text-align: center;
+  padding: 30px 0px 0px 0px;
+}
+
+.detailproject h2 {
+  color: #fff;
+  font-size: 36px;
+  font-family: "Dancing Script", cursive;
+}
+
+.detailproject h2 span {
+  color: #FFCC00;
+}
+
+.hgeadingproject {
+  text-align: center;
+  padding: 30px 0px 0px 0px;
+}
+
+.hgeadingproject h2 {
+  color: #000;
+  font-size: 40px;
+  font-family: "Dancing Script", cursive;
+}
+
+.hgeadingproject h2 span {
+  color: #FFCC00;
+
+}
+
+.hgeadingcirtificate {
+  text-align: center;
+  padding: 0px 0px 0px 0px;
+}
+.hgeadingcirtificate h2{
+  color: #000;
+  font-size: 40px;
+  font-family: "Dancing Script", cursive;
+}
+.hgeadingcirtificate h2 span {
+  color: #Ffff;
+
+}
+.padding-projectright {
+  padding: 10px 48px 48px 48px;
+}
+
+.section-education {
+  background-color: #FFCC00;
+  padding: 50px 0px;
+}
+
+.heading-education {
+  text-align: center;
+  padding: 0px 0px 0px 0px;
+}
+
+.heading-education h2 {
+  font-size: 40px;
+  font-weight: 800;
+  font-family: "Dancing Script", cursive;
+  color: #ffffff;
+}
+
+.heading-education h2 span {
+  font-size: 40px;
+  font-weight: 800;
+  font-family: "Dancing Script", cursive;
+  color: #000;
+}
+
+.educationarea {
+  padding: 30px 0px 0px 0px;
+}
+
+.educationarea h3 {
+  font-size: 26px;
+  font-weight: 800;
+  font-family: "Dancing Script", cursive;
+  color: #000;
+}
+
+.palacedate {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.palacedate p {
+  color: #000000;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: "Dancing Script", cursive;
+}
+
+.palacedate p span {
+  color: #2e2e2e;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Dancing Script", cursive;
+}
+
+.infoeducation {
+  text-align: left;
+  padding: 10px 5px;
+
+}
+
+.uleducation {
+  list-style: disc;
+  padding: 10px 30px;
+}
+
+.uleducation .lipoint {
+  color: #000;
+  padding: 7px 0px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Dancing Script", cursive;
+}
+
+.section-experience {
+  background-color: #000;
+  padding: 50px 0px;
+
+}
+
+.heading-experience {
+  text-align: center;
+  padding: 0px 0px 0px 0px;
+}
+
+.heading-experience h2 {
+  font-size: 40px;
+  font-weight: 800;
+  font-family: "Dancing Script", cursive;
+  color: #ffffff;
+}
+
+.heading-experience h2 span {
+  font-size: 40px;
+  font-weight: 800;
+  font-family: "Dancing Script", cursive;
+  color: #FFCC00;
+}
+
+.companydata h3 {
+  font-size: 26px;
+  font-weight: 800;
+  font-family: "Dancing Script", cursive;
+  color: #FFCC00;
+}
+
+.namedate {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.namedate p {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 800;
+  font-family: "Dancing Script", cursive;
+}
+
+.namedate p span {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Dancing Script", cursive;
+}
+
+.companyheding {
+  padding: 0px 0px 5px 0px;
+}
+
+.ularea {
+  padding: 0px 5px;
+  list-style: inside;
+}
+
+.lipoint {
+  color: #fff;
+  padding: 7px 0px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Dancing Script", cursive;
+}
+
+.padding-certiright {
+  padding: 10px 48px 48px 48px;
+}
+
+.allcertificate {
+  background-color: #ffcc00;
+  padding: 30px 40px 40px 40px;
+  height: 100%;
+}
+
+.certificatepic {
+  width: auto;
+  height: auto;
+  padding: 10px 0px 20px 0px;
+  cursor: pointer;
+}
+
+.certificatepic img {
+  border: 10px solid #000;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.rightdsidecerte {
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 650px;
+  box-sizing: border-box;
+  padding-right: 15px;
+}
+
+.rightdsidecerte::-webkit-scrollbar {
+  width: 8px;
+}
+
+.rightdsidecerte::-webkit-scrollbar-track {
+  background: #ffffff;
+  border: 0px solid #000000;
+  border-radius: 5px;
+}
+
+.rightdsidecerte::-webkit-scrollbar-thumb {
+  background-color: #000000;
+  border-radius: 5px;
+
+}
+
+.contactarea {
+  background-color: #000;
+  padding: 40px 0px;
+}
+
+.headingcontact {
+  text-align: center;
+}
+
+.headingcontact h2 {
+  color: #fff;
+  font-size: 40px;
+  font-family: "Dancing Script", cursive;
+  font-weight: 800;
+}
+
+.headingcontact h2 span {
+  color: #FFCC00;
+}
+
+form {
+  margin: 20px auto;
+  padding: 20px;
+  background-color: transparent;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  font-family: "Dancing Script", cursive;
+}
+
+form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #fff;
+  font-size: 16px;
+}
+
+form label span {
+  color: #ff0000;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  border: 1px solid #000;
+  font-size: 16px;
+  font-family: "Dancing Script", cursive;
+}
+
+form input::placeholder,
+form textarea::placeholder {
+  color: #aaa;
+  font-size: 14px;
+
+}
+
+form textarea {
+  resize: vertical;
+}
+
+
+.submit-btn {
+  background-color: #FFCC00;
+  text-align: center;
+  color: #000;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 10px 24px;
+  font-family: "Dancing Script", cursive;
+  font-size: 16px;
+  border: 1px solid #000;
+}
+
+.submit-btn:hover {
+  background: linear-gradient(90deg, rgba(215, 194, 81, 1) 0%, rgba(222, 213, 155, 1) 0%, rgba(255, 212, 0, 1) 100%, rgba(235, 173, 62, 1) 100%, rgba(227, 157, 87, 1) 100%);
+  color: #000;
+
+}
+
+.finbdmearea {
+  background-color: #fff;
+  padding: 40px 0px;
+}
+
+.headingfindme {
+  padding: 5px 0px;
+  text-align: center;
+}
+
+.headingfindme h2 {
+  font-size: 40px;
+  color: #000000;
+  font-family: "Dancing Script", cursive;
+  padding: 20px 0px 10px 0px;
+}
+
+.headingfindme p {
+  font-size: 16px;
+  color: #000000;
+  padding: 10px 0px 20px 0px;
+  font-family: "Dancing Script", cursive;
+}
+
+.headingfindme h2 span {
+  color: #FFCC00;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding: 5px 0px;
+}
+
+.social-icon {
+  width: 32px;
+  height: auto;
+}
+
+.social-icon img {
+  width: 100%;
+  height: auto;
+  transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+.social-icon img:hover {
+  filter: sepia(1) saturate(500%) hue-rotate(180deg) brightness(1.2);
+  transform: scale(1.1);
+}
+
+.display-web {
+  display: block;
+}
+
+.display-mobile {
+  display: none;
+}
+
+.imgflex {
+  display: block;
+}
+
+.windowsection {
+  display: block;
+}
+
+.mobilesection {
+  display: none;
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  background-color: #FFCC00;
+  padding: 12px 0;
+}
+
+footer p {
+  font-size: 16px;
+  color: #000000;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Dancing Script", cursive;
+}
+
+/* Responsive Styles */
+@media (max-width: 1164px) {
+  .shape2-content {
+    padding: 62px 0px 62px 0px;
+  }
+}
+
+@media (max-width: 991px) {
+  .hgeadingcirtificate {
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+  }
+  .hgeadingcirtificate h2{
+    color: #000;
+    font-size: 32px;
+    font-family: "Dancing Script", cursive;
+  }
+  .projectpicmain {
+    width: auto;
+    height: auto;
+    padding: 20px 0px;
+  }
+
+
+  .padding-projectright {
+    padding: 10px 48px 48px 10px;
+  }
+
+  .hgeadingproject h2 {
+    font-size: 28px;
+  }
+
+  .detailproject h2 {
+    font-size: 24px;
+  }
+
+  .hero-text p {
+    padding: 10px 20px 10px 0px;
+  }
+
+  .shape1-content {
+    padding: 42px 0px 42px 0px;
+  }
+
+  .about_text h2 {
+    font-size: 36px;
+    padding: 0px 0px 15px 0px;
+  }
+
+  .navbar_three {
+    display: block;
+    text-align: center;
+  }
+
+  .navbar_three .nav-point {
+    color: #000;
+    cursor: pointer;
+    padding: 10px 10px;
+    margin: 5px 0px;
+  }
+
+  .shape2-content {
+    padding: 55px 0px 55px 0px;
+  }
+
+  .padding-section {
+    padding: 40px 0px;
+  }
+
+}
+
+@media (max-width: 864px) {
+  .imgflex {
+    display: flex;
+  }
+
+  .hero-text h1 {
+
+    padding: 0px 0px;
+  }
+
+  .shape1-content {
+    padding: 38px 0px 38px 0px;
+  }
+
+  .shape2-content {
+    padding: 19px 0px 81px 0px;
+  }
+
+  .display-web {
+    display: none;
+  }
+
+  .display-mobile {
+    display: block !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .imgflex {
+    display: block;
+  }
+
+  .hero-text p {
+    padding: 10px 0px 10px 0px;
+  }
+
+  .shape1-content {
+    padding: 32px 0px 32px 0px;
+  }
+
+  .about_text h2 {
+    font-size: 32px;
+    padding: 0px 0px 0px 0px;
+  }
+
+  .hero-text {
+    padding: 0px 0px 10px 0px;
+  }
+
+  .hero-picarea {
+    display: flex;
+    justify-content: center;
+  }
+
+  .shape2-content {
+    padding: 42px 0px 42px 0px;
+  }
+
+  .hero-picarea {
+    padding: 10px 0px;
+  }
+
+
+}
+
+@media (max-width: 678px) {
+  .namedate {
+    display: block;
+  }
+
+  .palacedate {
+    display: block;
+  }
+
+  .padding-projectright {
+    padding: 10px 48px 48px 48px;
+  }
+
+  .projectareamobile {
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 200px;
+    box-sizing: border-box;
+    padding-right: 15px;
+  }
+
+  .projectareamobile::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  .projectareamobile::-webkit-scrollbar-track {
+
+    background: #D9D9D9;
+    border: 1px solid #D9D9D9;
+    border-radius: 5px;
+  }
+
+  .projectareamobile::-webkit-scrollbar-thumb {
+    background-color: #FFCC00;
+    border-radius: 5px;
+    border: 2px solid #D9D9D9;
+  }
+
+  .projectpic img {
+    border: 5px solid #000;
+
+  }
+
+  .windowsection {
+    display: none;
+  }
+
+  .mobilesection {
+    display: block;
+  }
+
+  .hero_section {
+
+    padding: 40px 0px 0px 0px;
+  }
+
+  .shape1-content {
+    padding: 28px 0px 28px 0px;
+  }
+
+  .about_text h2 {
+    font-size: 28px;
+  }
+
+  .shape2-content {
+    padding: 38px 0px 38px 0px;
+  }
+
+  .padding-container {
+    padding: 0px 30px;
+  }
+}
+
+@media (max-width: 556px) {
+
+
+  .about_text h2 {
+    font-size: 24px;
+  }
+
+  .about_text p {
+    font-size: 14px;
+
+  }
+
+  .shape1-content {
+    padding: 24px 0px 24px 0px;
+  }
+
+  .shape2-content {
+    padding: 19px 0px 38px 0px;
+  }
+
+  .padding-container {
+    padding: 0px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .padding-projectright {
+    padding: 10px 30px 48px 30px;
+  }
+
+  .padding-projectleft {
+    padding: 10px 30px 30px 30px;
+  }
+
+  .shape2-content {
+    padding: 19px 0px 32px 0px;
+  }
+
+  .about_text h2 {
+    font-size: 22px;
+  }
+
+  .shape1-content {
+    padding: 22px 0px 22px 0px;
+  }
+
+  .padding-container {
+    padding: 0px 15px;
+  }
+}
+
+@media (max-width: 420px) {
+  footer p {
+    font-size: 14px;
+
+  }
+
+  .hero-text h1 {
+    font-size: 32px;
+
+  }
+
+  .hero_section {
+
+    padding: 35px 0px 0px 0px;
+  }
+
+  .shape1-content {
+    padding: 20px 0px 20px 0px;
+  }
+
+  .about_text h2 {
+    font-size: 18px;
+  }
+
+  .shape2-content {
+    padding: 19px 0px 25px 0px;
+  }
+}
+
+@media (max-width: 380px) {
+  .hero-picarea {
+    padding: 10px 0px 32px 0px;
+  }
+
+  .shape1-content {
+    display: none;
+  }
+
+  .shape2-content {
+    display: none;
+  }
+
+}
+
+@media (max-width: 364px) {
+  .hero-text h1 {
+    font-size: 28px;
+
+  }
+
+  .navbar_three .nav-point {
+    font-size: 14px;
+  }
+
+  .shape2-content {
+    padding: 19px 0px 15px 0px;
+  }
+
+}
+
+@media (max-width: 331px) {
+  .shape2-content {
+    padding: 19px 0px 15px 0px;
+  }
+
+  .padding-container {
+    padding: 0px 10px;
+  }
+}
