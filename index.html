@@ -28,7 +28,7 @@
             <a href="https://wa.me/6367871223" target="_blank" class="whatsaap">
               <i class="fa-brands fa-whatsapp"></i>
             </a> | <a href="tel:+6367871223" class="callpoint">
-              <i class="fas fa-mobile-alt"></i> <span>636787***<span>*</span></span>
+              <i class="fas fa-mobile-alt"></i> <span>6367871223</span>
             </a>
           </div>
         </div>
@@ -66,6 +66,9 @@
           <a href="#certificate" class="nav-point">Certificates</a>
           <a href="#contact" class="nav-point">Contact</a>
           <a href="#findme" class="nav-point">Find Me Online</a>
+          <a href="./assets/resume/Gitesh_pathak.pdf" download="Gittu_Pathak_Resume" target="_blank" class="nav-point">
+            Download My Resume
+          </a>          
         </div>
       </div>
     </nav>
@@ -735,7 +738,7 @@
     })();
 
     function sendmail(event) {
-      event.preventDefault(); // Prevent default form submission
+      event.preventDefault();
 
       var parmas = {
         name: document.getElementById("name").value,
@@ -777,14 +780,11 @@
 
   <script>
     function showTab(tabId) {
-      // Remove the active class from all tabs and buttons
       const tabs = document.querySelectorAll(".tab-content");
       const buttons = document.querySelectorAll(".certificatepic");
 
       tabs.forEach(tab => tab.classList.remove("active"));
       buttons.forEach(button => button.classList.remove("active"));
-
-      // Add the active class to the selected tab and button
       document.getElementById(tabId).classList.add("active");
       const selectedButton = document.querySelector(`[onclick="showTab('${tabId}')"]`);
       selectedButton.classList.add("active");
