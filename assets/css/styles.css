@@ -202,7 +202,7 @@ a {
   cursor: pointer;
   font-size: 15px;
   font-family: "Dancing Script", cursive;
-  padding: 3px 16px;
+  padding: 8px 16px;
 }
 
 .bottomtop {
@@ -501,15 +501,18 @@ a {
   text-align: center;
   padding: 0px 0px 0px 0px;
 }
-.hgeadingcirtificate h2{
+
+.hgeadingcirtificate h2 {
   color: #000;
   font-size: 40px;
   font-family: "Dancing Script", cursive;
 }
+
 .hgeadingcirtificate h2 span {
   color: #Ffff;
 
 }
+
 .padding-projectright {
   padding: 10px 48px 48px 48px;
 }
@@ -725,7 +728,7 @@ a {
   color: #FFCC00;
 }
 
-form {
+.contactform {
   margin: 20px auto;
   padding: 20px;
   background-color: transparent;
@@ -734,7 +737,7 @@ form {
   font-family: "Dancing Script", cursive;
 }
 
-form label {
+.contactform label {
   display: block;
   margin-bottom: 8px;
   font-weight: bold;
@@ -742,12 +745,12 @@ form label {
   font-size: 16px;
 }
 
-form label span {
+.contactform label span {
   color: #ff0000;
 }
 
-form input,
-form textarea {
+.contactform input,
+.contactform textarea {
   width: 100%;
   padding: 10px;
   margin-bottom: 20px;
@@ -757,14 +760,14 @@ form textarea {
   font-family: "Dancing Script", cursive;
 }
 
-form input::placeholder,
-form textarea::placeholder {
+.contactform input::placeholder,
+.contactform textarea::placeholder {
   color: #aaa;
   font-size: 14px;
 
 }
 
-form textarea {
+.contactform textarea {
   resize: vertical;
 }
 
@@ -874,6 +877,103 @@ footer p {
   font-family: "Dancing Script", cursive;
 }
 
+
+/* ================================ */
+
+.popupbody {
+  padding: 0;
+  /* Remove border-radius here to avoid affecting the entire modal */
+}
+
+
+
+.popupform {
+  padding: 20px;
+  background-color: #000;
+  font-family: "Dancing Script", cursive;
+  border-radius:10px 0px 0px 10px; 
+}
+
+.popupform label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #fff;
+  font-size: 14px;
+}
+
+.popupform label span {
+  color: #ff0000;
+}
+
+.popupform input,
+.popupform textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+  border: 1px solid #000;
+  font-size: 14px;
+  font-family: "Dancing Script", cursive;
+}
+
+.popupform input::placeholder,
+.popupform textarea::placeholder {
+  color: #aaa;
+  font-size: 14px;
+}
+
+.popupform textarea {
+  resize: vertical;
+}
+
+
+
+.popupimage {
+  background-image: url('../images/contactpic.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: auto;
+  border-radius:0px 10px 10px 0px; 
+  padding: 10px;
+}
+
+.textpopup {
+  text-align: left;
+
+  padding: 20px 10px 0px 5px;
+}
+
+.textpopup h2 {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #000000;
+}
+
+
+.textpopup p {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #000000;
+}
+.colsebtnarea{
+  text-align: end;
+
+}
+.closebtn{
+  color: #FFF !important;
+  font-size: 16px !important;
+}
+
+.mobileclose{
+  display: none;
+}
+.webbtn{
+  display: block;
+}
 /* Responsive Styles */
 @media (max-width: 1164px) {
   .shape2-content {
@@ -881,16 +981,37 @@ footer p {
   }
 }
 
+@media (max-width: 1084px) {
+  .navbar_three {
+    display: block;
+    text-align: center;
+  }
+}
+
 @media (max-width: 991px) {
+  .popupform {
+    border-radius:10px; 
+  }
+  .webbtn{
+    display: none;
+  }
+  .popupimage {
+    border-radius:10; 
+  }
+  .mobileclose{
+    display: block;
+  }
   .hgeadingcirtificate {
     text-align: center;
     padding: 0px 0px 0px 0px;
   }
-  .hgeadingcirtificate h2{
+
+  .hgeadingcirtificate h2 {
     color: #000;
     font-size: 32px;
     font-family: "Dancing Script", cursive;
   }
+
   .projectpicmain {
     width: auto;
     height: auto;
