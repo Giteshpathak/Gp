@@ -390,15 +390,15 @@
             </div>
             <div class="alllistproject padding-projectleft">
 
-              <div class="row projectareamobile">
-                <div class="col-4">
+              <div class="row projectareamobile " >
+                <div class="col-4" >
                   <div class="projectpic">
                     <img src="./assets/images/projectdemo1.png" alt="man" />
                   </div>
                 </div>
                 <div class="col-4">
                   <div class="projectpic">
-                    <img src="./assets/images/projectdemo4.png" alt="man" />
+                    <img src="./assets/images/projectdemo2.png" alt="man" />
                   </div>
 
                 </div>
@@ -409,30 +409,10 @@
                 </div>
                 <div class="col-4">
                   <div class="projectpic">
-                    <img src="./assets/images/projectdemo2.png" alt="man" />
-                  </div>
-                </div>
-                <div class="col-4">
-                  <div class="projectpic">
-                    <img src="./assets/images/projectdemo1.png" alt="man" />
-                  </div>
-                </div>
-                <div class="col-4">
-                  <div class="projectpic">
                     <img src="./assets/images/projectdemo4.png" alt="man" />
                   </div>
-
                 </div>
-                <div class="col-4">
-                  <div class="projectpic">
-                    <img src="./assets/images/projectdemo3.png" alt="man" />
-                  </div>
-                </div>
-                <div class="col-4">
-                  <div class="projectpic">
-                    <img src="./assets/images/projectdemo2.png" alt="man" />
-                  </div>
-                </div>
+               
               </div>
             </div>
           </div>
@@ -697,15 +677,15 @@
             <h2>Cont<span>act Me</span></h2>
           </div>
           <div class="col-md-9 mx-auto">
-            <form id="contactForm" class="contactformcard" onsubmit="sendmassage(event)">
+            <form id="contactForm" class="contactformcard" onsubmit="sendmail(event)">
               <div class="row">
                 <div class="col-md-6">
-                  <label for="name">Name <span>*</span></label>
-                  <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                  <label for="namepart">Name <span>*</span></label>
+                  <input type="text" id="namepart" name="name" placeholder="Enter your name" required>
                 </div>
                 <div class="col-md-6">
-                  <label for="number">Phone <span>*</span></label>
-                  <input type="tel" id="number" name="phone" placeholder="Enter your phone number" required>
+                  <label for="numberpart">Phone <span>*</span></label>
+                  <input type="tel" id="numberpart" name="phone" placeholder="Enter your phone number" required>
                 </div>
                 <div class="col-12">
                   <label for="emailpart">Email <span>*</span></label>
@@ -860,7 +840,7 @@
       };
 
       const serviceID = 'service_jey4ap6';
-      const templateID = 'template_vm5ii0j';
+      const templateID = 'template_racc996';
 
       emailjs.send(serviceID, templateID, parmas)
         .then((res) => {
