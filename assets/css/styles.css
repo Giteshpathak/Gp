@@ -943,7 +943,7 @@ footer p {
 .textpopup {
   text-align: left;
 
-  padding: 20px 10px 0px 5px;
+  padding: 15px 10px 0px 5px;
 }
 
 .textpopup h2 {
@@ -963,9 +963,12 @@ footer p {
   text-align: end;
 
 }
-.closebtn{
-  color: #FFF !important;
+.closebtn {
+  background:transparent;
+  color: #000 !important;
+  box-shadow: none;
   font-size: 16px !important;
+  border: none;
 }
 
 .mobileclose{
@@ -989,15 +992,26 @@ footer p {
 }
 
 @media (max-width: 991px) {
-  .popupform {
-    border-radius:10px; 
+  .closebtn {
+    background:transparent;
+    color: #FFF !important;
+    box-shadow: none;
+    font-size: 16px !important;
+    border: none;
   }
+  
+  .popupform {
+    border-radius: 10px 10px 0px 0px;
+    }
   .webbtn{
     display: none;
   }
+ 
   .popupimage {
-    border-radius:10; 
-  }
+  
+    border-radius: 0px 0px 10px 10px;
+ 
+}
   .mobileclose{
     display: block;
   }
