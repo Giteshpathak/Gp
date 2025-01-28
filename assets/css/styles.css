@@ -382,10 +382,21 @@ a {
   height: auto;
   border-radius: 10px;
 }
-
+.certificatepicmain{
+  width: auto;
+  height: 400px;
+  padding: 10px 0px 20px 0px;
+  cursor: pointer;
+}
+.certificatepicmain  img {
+  border: 10px solid #000;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
 .projectpicmain {
   width: auto;
-  height: 300px;
+  height: auto;
   padding: 20px 0px;
 }
 
@@ -977,6 +988,12 @@ footer p {
 .webbtn{
   display: block;
 }
+
+
+
+
+
+
 /* Responsive Styles */
 @media (max-width: 1164px) {
   .shape2-content {
