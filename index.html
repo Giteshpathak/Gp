@@ -234,7 +234,6 @@
         </div>
       </div>
     </section>
-
     <section id="projects" class="windowsection">
       <div class="container-fluid">
         <div class="row">
@@ -666,7 +665,7 @@
             <div class="alllistproject padding-projectleft">
               <div class="row allcertificates tab-content" id="myTabContent">
                 <div class="col-md-12 tab-pane fade show active " id="one" role="tabpanel" aria-labelledby="one-tab">
-                  <div class="certificatepicmain ">
+                  <div class="certificatepicmain">
                     <img src="./assets/images/projectdemo1.png" alt="man" />
                   </div>
                 </div>
@@ -890,6 +889,33 @@
         header.classList.remove("stickypoint");
       }
     }
+  </script>
+  <script>
+    // Function to highlight the active section
+    window.addEventListener("scroll", function () {
+      const sections = document.querySelectorAll("section");
+      const navLinks = document.querySelectorAll(".nav-point");
+
+      let currentSection = "";
+
+      // Loop through sections to find the one currently in view
+      sections.forEach((section) => {
+        const sectionTop = section.offsetTop;
+        const sectionHeight = section.offsetHeight;
+        if (window.scrollY >= sectionTop - 80 && window.scrollY < sectionTop + sectionHeight) {
+          currentSection = section.getAttribute("id");
+        }
+      });
+
+      // Remove active class from all nav links
+      navLinks.forEach((link) => {
+        link.classList.remove("active");
+        if (link.getAttribute("href") === `#${currentSection}`) {
+          link.classList.add("active");
+        }
+      });
+    });
+
   </script>
   <script>
     $(document).ready(function () {

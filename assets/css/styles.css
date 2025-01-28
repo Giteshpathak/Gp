@@ -136,9 +136,16 @@ a {
   font-weight: bold;
 }
 
-.nav-point:hover {
+.navbar_three .nav-point:hover {
   color: #FFCC00;
   text-decoration: underline;
+  text-underline-offset: 8px;
+}
+
+.navbar_three .nav-point.active {
+  color: #FFCC00; 
+  text-decoration: underline;
+  text-underline-offset: 8px;
 }
 
 .stickypoint {
@@ -382,7 +389,7 @@ a {
   height: auto;
   border-radius: 10px;
 }
-.certificatepicmain{
+.certificatepicmain {
   width: auto;
   height: 400px;
   padding: 10px 0px 20px 0px;
@@ -479,7 +486,7 @@ a {
 
 .detailproject {
   text-align: center;
-  padding: 30px 0px 0px 0px;
+  padding: 50px 0px 10px 0px;
 }
 
 .detailproject h2 {
@@ -494,7 +501,7 @@ a {
 
 .hgeadingproject {
   text-align: center;
-  padding: 30px 0px 0px 0px;
+  padding: 50px 0px 10px 0px;
 }
 
 .hgeadingproject h2 {
@@ -510,7 +517,7 @@ a {
 
 .hgeadingcirtificate {
   text-align: center;
-  padding: 0px 0px 0px 0px;
+  padding: 18px 0px 38px 0px;
 }
 
 .hgeadingcirtificate h2 {
@@ -677,7 +684,7 @@ a {
 
 .allcertificate {
   background-color: #ffcc00;
-  padding: 30px 40px 40px 40px;
+  padding: 30px 40px 50px 40px;
   height: 100%;
 }
 
@@ -1086,7 +1093,17 @@ footer p {
     padding: 10px 10px;
     margin: 5px 0px;
   }
-
+  .navbar_three .nav-point:hover {
+    color: #FFCC00;
+    text-decoration: underline;
+    text-underline-offset: 4px; 
+  }
+  
+  .navbar_three .nav-point.active {
+    color: #FFCC00; 
+    text-decoration: underline;
+    text-underline-offset: 4px; 
+  }
   .shape2-content {
     padding: 55px 0px 55px 0px;
   }
