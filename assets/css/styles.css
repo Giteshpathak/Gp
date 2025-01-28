@@ -727,8 +727,8 @@ a {
 .headingcontact h2 span {
   color: #FFCC00;
 }
-
-.contactform {
+/* =========================================== */
+.contactformcard {
   margin: 20px auto;
   padding: 20px;
   background-color: transparent;
@@ -737,7 +737,7 @@ a {
   font-family: "Dancing Script", cursive;
 }
 
-.contactform label {
+.contactformcard label {
   display: block;
   margin-bottom: 8px;
   font-weight: bold;
@@ -745,12 +745,12 @@ a {
   font-size: 16px;
 }
 
-.contactform label span {
+.contactformcard label span {
   color: #ff0000;
 }
 
-.contactform input,
-.contactform textarea {
+.contactformcard input,
+.contactformcard textarea {
   width: 100%;
   padding: 10px;
   margin-bottom: 20px;
@@ -760,14 +760,14 @@ a {
   font-family: "Dancing Script", cursive;
 }
 
-.contactform input::placeholder,
-.contactform textarea::placeholder {
+.contactformcard input::placeholder,
+.contactformcard textarea::placeholder {
   color: #aaa;
   font-size: 14px;
 
 }
 
-.contactform textarea {
+.contactformcard textarea {
   resize: vertical;
 }
 
