@@ -391,7 +391,7 @@ a {
 }
 .certificatepicmain {
   width: auto;
-  height: 400px;
+  height: auto;
   padding: 10px 0px 20px 0px;
   cursor: pointer;
 }
@@ -436,7 +436,7 @@ a {
 .allcertificates {
   overflow-y: auto;
   overflow-x: hidden;
-  height: 600px;
+  height: 620px;
   box-sizing: border-box;
   padding-right: 15px;
 }
@@ -810,7 +810,7 @@ a {
 
 .finbdmearea {
   background-color: #fff;
-  padding: 40px 0px;
+  padding: 60px 0px;
 }
 
 .headingfindme {
@@ -1008,6 +1008,16 @@ footer p {
 }
 
 @media (max-width: 1084px) {
+  .rightdsidecerte {
+  
+    height: 414px;
+   
+}
+.allcertificates {
+ 
+  height: 510px;
+  
+}
   .navbar_three {
     display: block;
     text-align: center;
@@ -1015,6 +1025,19 @@ footer p {
 }
 
 @media (max-width: 991px) {
+  .rightdsidecerte {
+  
+    height: 380px;
+   
+}
+.certificatepicmain {
+  width: auto;
+  height: auto;
+  
+}
+.allcertificates {
+  height: 380px;
+}
   .closebtn {
     background:transparent;
     color: #FFF !important;
@@ -1047,6 +1070,7 @@ footer p {
     color: #000;
     font-size: 32px;
     font-family: "Dancing Script", cursive;
+    padding-bottom: 20px;
   }
 
   .projectpicmain {
@@ -1114,6 +1138,12 @@ footer p {
 }
 
 @media (max-width: 864px) {
+  .allcertificates {
+    height: 320px;
+  }
+  .rightdsidecerte {
+    height: 320px;
+}
   .imgflex {
     display: flex;
   }
@@ -1141,6 +1171,9 @@ footer p {
 }
 
 @media (max-width: 768px) {
+  .allcertificates {
+    height: 100%;
+}
   .imgflex {
     display: block;
   }
