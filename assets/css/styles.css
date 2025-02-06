@@ -6,7 +6,7 @@ body {
 }
 
 a {
-  text-decoration: none ;
+  text-decoration: none;
   color: inherit;
 }
 
@@ -143,7 +143,7 @@ a {
 }
 
 .navbar_three .nav-point.active {
-  color: #FFCC00; 
+  color: #FFCC00;
   text-decoration: underline;
   text-underline-offset: 8px;
 }
@@ -249,12 +249,14 @@ a {
 }
 
 .hero-text h1 {
-  font-size: 36px;
+  font-size: 40px;
   color: #fff;
   font-family: "Dancing Script", cursive;
   padding: 10px 0px;
 }
-
+.hero-text h1 span{
+  color: #FFCC00;
+}
 .hero-text p {
   font-size: 16px;
   color: #fff;
@@ -389,18 +391,21 @@ a {
   height: auto;
   border-radius: 10px;
 }
+
 .certificatepicmain {
   width: auto;
   height: auto;
   padding: 10px 0px 20px 0px;
   cursor: pointer;
 }
-.certificatepicmain  img {
+
+.certificatepicmain img {
   border: 10px solid #000;
   width: 100%;
   height: auto;
   border-radius: 10px;
 }
+
 .projectpicmain {
   width: auto;
   height: auto;
@@ -418,18 +423,19 @@ a {
   text-align: center;
 
 }
+
 .textareaproject h2 {
   font-size: 20px;
   font-family: "Dancing Script", cursive;
   color: #ffcc00;
 }
-.textareaproject h2 span  {
-  font-size: 20px;
-  font-family: "Dancing Script", cursive;
+
+.textareaproject h2 span {
   color: #fff;
-} 
+}
+
 .textareaproject p {
-  
+
   font-size: 16px;
   font-family: "Dancing Script", cursive;
   color: #fff;
@@ -563,9 +569,6 @@ a {
 }
 
 .heading-education h2 span {
-  font-size: 40px;
-  font-weight: 800;
-  font-family: "Dancing Script", cursive;
   color: #000;
 }
 
@@ -638,9 +641,6 @@ a {
 }
 
 .heading-experience h2 span {
-  font-size: 40px;
-  font-weight: 800;
-  font-family: "Dancing Script", cursive;
   color: #FFCC00;
 }
 
@@ -755,6 +755,7 @@ a {
 .headingcontact h2 span {
   color: #FFCC00;
 }
+
 /* =========================================== */
 .contactformcard {
   margin: 20px auto;
@@ -919,7 +920,7 @@ footer p {
   padding: 20px;
   background-color: #000;
   font-family: "Dancing Script", cursive;
-  border-radius:10px 0px 0px 10px; 
+  border-radius: 10px 0px 0px 10px;
 }
 
 .popupform label {
@@ -964,7 +965,7 @@ footer p {
   background-repeat: no-repeat;
   height: 100%;
   width: auto;
-  border-radius:0px 10px 10px 0px; 
+  border-radius: 0px 10px 10px 0px;
   padding: 10px;
 }
 
@@ -987,27 +988,27 @@ footer p {
   line-height: 1.5;
   color: #000000;
 }
-.colsebtnarea{
+
+.colsebtnarea {
   text-align: end;
 
 }
+
 .closebtn {
-  background:transparent;
+  background: transparent;
   color: #000 !important;
   box-shadow: none;
   font-size: 16px !important;
   border: none;
 }
 
-.mobileclose{
+.mobileclose {
   display: none;
 }
-.webbtn{
+
+.webbtn {
   display: block;
-} 
-
-
-
+}
 
 
 /* Responsive Styles */
@@ -1019,15 +1020,17 @@ footer p {
 
 @media (max-width: 1084px) {
   .rightdsidecerte {
-  
+
     height: 414px;
-   
-}
-.allcertificates {
- 
-  height: 510px;
-  
-}
+
+  }
+
+  .allcertificates {
+
+    height: 510px;
+
+  }
+
   .navbar_three {
     display: block;
     text-align: center;
@@ -1035,42 +1038,47 @@ footer p {
 }
 
 @media (max-width: 991px) {
+
   .rightdsidecerte {
-  
     height: 380px;
-   
-}
-.certificatepicmain {
-  width: auto;
-  height: auto;
-  
-}
-.allcertificates {
-  height: 380px;
-}
+  }
+
+  .certificatepicmain {
+    width: auto;
+    height: auto;
+
+  }
+
+  .allcertificates {
+    height: 380px;
+  }
+
   .closebtn {
-    background:transparent;
+    background: transparent;
     color: #FFF !important;
     box-shadow: none;
     font-size: 16px !important;
     border: none;
   }
-  
+
   .popupform {
     border-radius: 10px 10px 0px 0px;
-    }
-  .webbtn{
+  }
+
+  .webbtn {
     display: none;
   }
- 
+
   .popupimage {
-  
+    padding: 0px 20px 150px 20px;
     border-radius: 0px 0px 10px 10px;
- 
-}
-  .mobileclose{
+
+  }
+
+  .mobileclose {
     display: block;
   }
+
   .hgeadingcirtificate {
     text-align: center;
     padding: 0px 0px 0px 0px;
@@ -1091,7 +1099,7 @@ footer p {
 
 
   .padding-projectright {
-    padding: 10px 48px 48px 10px;
+    padding: 10px 48px 48px 20px;
   }
 
   .hgeadingproject h2 {
@@ -1126,17 +1134,19 @@ footer p {
     padding: 10px 10px;
     margin: 5px 0px;
   }
+
   .navbar_three .nav-point:hover {
     color: #FFCC00;
     text-decoration: underline;
-    text-underline-offset: 4px; 
+    text-underline-offset: 4px;
   }
-  
+
   .navbar_three .nav-point.active {
-    color: #FFCC00; 
+    color: #FFCC00;
     text-decoration: underline;
-    text-underline-offset: 4px; 
+    text-underline-offset: 4px;
   }
+
   .shape2-content {
     padding: 55px 0px 55px 0px;
   }
@@ -1144,22 +1154,28 @@ footer p {
   .padding-section {
     padding: 40px 0px;
   }
-
+  .heading-experience h2 {
+    font-size: 36px;
+  }
+  .hero-text h1 {
+    font-size: 36px;
+  }
 }
 
 @media (max-width: 864px) {
   .allcertificates {
     height: 320px;
   }
+
   .rightdsidecerte {
     height: 320px;
-}
+  }
+
   .imgflex {
     display: flex;
   }
 
   .hero-text h1 {
-
     padding: 0px 0px;
   }
 
@@ -1183,7 +1199,8 @@ footer p {
 @media (max-width: 768px) {
   .allcertificates {
     height: 100%;
-}
+  }
+
   .imgflex {
     display: block;
   }
@@ -1218,10 +1235,41 @@ footer p {
     padding: 10px 0px;
   }
 
+  .projectpic img {
+    border: 5px solid #000;
+  }
 
+  .certificatepic img {
+    border: 5px solid #000;
+  }
+
+  .padding-projectright {
+    padding: 10px 48px 48px 30px;
+  }
 }
 
 @media (max-width: 678px) {
+  .headingfindme h2 {
+    font-size: 36px;
+  }
+  .headingcontact h2 {
+    font-size: 36px;
+  }
+  .namedate p {
+    font-size: 20px;
+  }
+  .lipoint {
+    font-size: 15px;
+  }
+  .companydata h3 {
+    font-size: 24px;
+  }
+  .hero-text h1 {
+    font-size: 32px;
+  }
+  .heading-experience h2 {
+    font-size: 32px;
+  }
   .namedate {
     display: block;
   }
@@ -1230,40 +1278,7 @@ footer p {
     display: block;
   }
 
-  .padding-projectright {
-    padding: 10px 48px 48px 48px;
-  }
-
-  .projectareamobile {
-    overflow-y: auto;
-    overflow-x: hidden;
-    height: 200px;
-    box-sizing: border-box;
-    padding-right: 15px;
-  }
-
-  .projectareamobile::-webkit-scrollbar {
-    width: 10px;
-  }
-
-  .projectareamobile::-webkit-scrollbar-track {
-
-    background: #D9D9D9;
-    border: 1px solid #D9D9D9;
-    border-radius: 5px;
-  }
-
-  .projectareamobile::-webkit-scrollbar-thumb {
-    background-color: #FFCC00;
-    border-radius: 5px;
-    border: 2px solid #D9D9D9;
-  }
-
-  .projectpic img {
-    border: 5px solid #000;
-
-  }
-
+  /* ================ */
   .windowsection {
     display: none;
   }
@@ -1272,6 +1287,53 @@ footer p {
     display: block;
   }
 
+  .padding-projectright {
+    padding: 10px 48px 48px 48px;
+  }
+
+  .hgeadingproject {
+
+    padding: 20px 0px 10px 0px;
+  }
+
+  .projectpicmain img {
+    border: 5px solid #FFCC00;
+  }
+
+  .projectpic {
+    width: 100px;
+  }
+
+  .rightdside {
+    height: 400px;
+  }
+
+  .alllistprojectarea {
+    overflow-y: hidden;
+    overflow-x: auto;
+    height: 100%;
+    box-sizing: border-box;
+    padding-right: 15px;
+    display: flex;
+    gap: 20px;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  /* .alllistprojectarea::-webkit-scrollbar {
+    height: 10px;
+  }
+  .alllistprojectarea::-webkit-scrollbar-track {
+  
+    background: #D9D9D9;
+    border: 1px solid #D9D9D9;
+    border-radius: 5px;
+  }
+  .alllistprojectarea::-webkit-scrollbar-thumb {
+    background-color: #FFCC00;
+    border-radius: 5px;
+    border: 2px solid #D9D9D9;
+  } */
   .hero_section {
 
     padding: 40px 0px 0px 0px;
@@ -1292,10 +1354,37 @@ footer p {
   .padding-container {
     padding: 0px 30px;
   }
+
+  .section-education {
+    padding: 30px 0px;
+  }
+
+  .rightdsidecerte {
+    overflow-y: hidden;
+    overflow-x: auto;
+    height: 100%;
+    box-sizing: border-box;
+    padding-right: 15px;
+    display: flex;
+    gap: 20px;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  .certificatepic {
+    width: 100px;
+  }
 }
 
 @media (max-width: 556px) {
+  .navbar_three .nav-point {
+    font-size: 14px;
+    padding: 5px 8px;
+  }
 
+  .navbar_three {
+    padding: 8px 0;
+  }
 
   .about_text h2 {
     font-size: 24px;
@@ -1320,6 +1409,13 @@ footer p {
 }
 
 @media (max-width: 480px) {
+  .section-education {
+    padding: 20px 0px;
+  }
+  footer {
+    padding: 8px 0px;
+  }
+
   .padding-projectright {
     padding: 10px 30px 48px 30px;
   }
@@ -1343,6 +1439,36 @@ footer p {
   .padding-container {
     padding: 0px 15px;
   }
+
+  .headingfindme p {
+    font-size: 13px;
+    padding: 10px 10px 20px 10px;
+  }
+
+  .social-icon {
+    width: 28px;
+    height: auto;
+  }
+
+  footer p {
+    font-size: 14px;
+  }
+
+  .educationarea h3 {
+    font-size: 20px;
+  }
+
+  .palacedate p {
+    font-size: 15px;
+  }
+
+  .uleducation .lipoint {
+    font-size: 14px;
+  }
+
+  .hgeadingcirtificate h2 {
+    font-size: 28px;
+  }
 }
 
 @media (max-width: 420px) {
@@ -1353,7 +1479,6 @@ footer p {
 
   .hero-text h1 {
     font-size: 32px;
-
   }
 
   .hero_section {
@@ -1375,6 +1500,14 @@ footer p {
 }
 
 @media (max-width: 380px) {
+  .navbar_top .topheader {
+    display: block;
+  }
+
+  .display-mobile {
+    display: none !important;
+  }
+
   .hero-picarea {
     padding: 10px 0px 32px 0px;
   }
@@ -1387,17 +1520,22 @@ footer p {
     display: none;
   }
 
+  .navbar_three .nav-point {
+    font-size: 12px;
+    padding: 3px 4px;
+  }
+
+  .navbar_three {
+    padding: 5px 0;
+  }
 }
 
 @media (max-width: 364px) {
   .hero-text h1 {
     font-size: 28px;
-
   }
 
-  .navbar_three .nav-point {
-    font-size: 14px;
-  }
+
 
   .shape2-content {
     padding: 19px 0px 15px 0px;
